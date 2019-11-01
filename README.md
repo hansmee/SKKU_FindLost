@@ -5,4 +5,4 @@
 - Android SDK Build-Tools 28.0.3 (build-tools;28.0.3)
 - Android SDK Platform 26 (platforms;android-26)
 
-![skku_findlost](./image/skku_findlost_small.gif)
+![skku_findlost](./image/skku_findlost.gif)
