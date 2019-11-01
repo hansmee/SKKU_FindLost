@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAC856"
+    tools:context=".MenuActivity">
+
+
+    <ImageView
+
+        android:src="@drawable/skku_logo"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageView
+            android:id="@+id/menu"
+            android:src="@drawable/menu"
+            android:layout_width="150dp"
+            android:layout_height="100dp"/>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:id="@+id/menu_linear"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:background="@android:color/white">
+
+                <LinearLayout
+                    android:id="@+id/report_linear"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/report_image"
+                        android:src="@drawable/report"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"/>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp">
+
+                        <ImageButton
+                            android:id="@+id/report_lost"
+                            android:src="@drawable/report_lost"
+                            android:layout_width="wrap_content"
+                            android:layout_height="60dp"
+                            android:padding="0dp"
+                            android:background="@drawable/selector"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter" />
+
+                        <ImageButton
+                            android:id="@+id/report_found"
+                            android:src="@drawable/report_found"
+                            android:layout_width="wrap_content"
+                            android:layout_height="60dp"
+                            android:padding="0dp"
+                            android:background="@drawable/selector"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/list_linear"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="5dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageButton
+                            android:id="@+id/list_lost"
+                            android:src="@drawable/list_lost"
+                            android:layout_width="wrap_content"
+                            android:layout_height="60dp"
+                            android:padding="0dp"
+                            android:background="@drawable/selector"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter" />
+
+                        <ImageButton
+                            android:id="@+id/list_found"
+                            android:src="@drawable/list_found"
+                            android:layout_width="wrap_content"
+                            android:layout_height="60dp"
+                            android:padding="0dp"
+                            android:background="@drawable/selector"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/list_image"
+                        android:src="@drawable/list"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/mypage_linear"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/mypage_image"
+                        android:src="@drawable/mypage_image"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"/>
+
+                    <ImageButton
+                        android:id="@+id/mypage"
+                        android:src="@drawable/mypage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_gravity="center"
+                        android:padding="0dp"
+                        android:background="@drawable/selector"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

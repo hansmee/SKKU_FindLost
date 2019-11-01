@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">성균관대학교 분실물 찾기</string>
+
+    <!-- all -->
+    <string name="all_group_channels">채팅방 목록</string>
+
+    <!-- Menu actions -->
+    <string name="action_create_channel">새 채팅방 생성</string>
+
+    <string name="download">다운로드</string>
+    <string name="cancel">취소</string>
+    <string name="upload">업로드</string>
+    <string name="resend_message">재전송</string>
+    <string name="delete_message">메세지 삭제</string>
+
+    <!-- Message Status -->
+    <string name="message_sending">전송 중</string>
+    <string name="message_failed">전송 실패</string>
+
+</resources>

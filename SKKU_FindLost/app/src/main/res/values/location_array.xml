@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="location">
+        <item >장소 선택</item>
+        <item >생명과학관</item>
+        <item >기초학문관</item>
+        <item >제1·제2과학관</item>
+        <item >제1·제2공학관</item>
+        <item >의학관</item>
+        <item >약학관·N센터</item>
+        <item >반도체관·화학관</item>
+        <item >실습동·연구동</item>
+        <item >기숙사</item>
+        <item >산학협력관</item>
+        <item >삼성학술정보관</item>
+        <item >학생회관</item>
+        <item >복지회관</item>
+        <item >수성관</item>
+        <item >후문</item>
+        <item >기타</item>
+    </string-array>
+</resources>

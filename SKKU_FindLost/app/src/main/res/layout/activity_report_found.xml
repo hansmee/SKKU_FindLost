@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".ReportFoundActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/found_title"
+            android:src="@drawable/found_title"
+            android:layout_width="190dp"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:layout_gravity="center" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:padding="3dp"
+            android:background="#FDEEC7"
+            android:layout_weight="7">
+
+            <LinearLayout
+                android:id="@+id/found_linear"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:background="#FAFAFA">
+
+                <EditText
+                    android:id="@+id/found_titleET"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp"
+                    android:background="@drawable/border"
+                    android:hint="제목을 입력하세요"
+                    android:textSize="17dp"
+                    android:inputType="textEmailSubject"/>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <ImageView
+                        android:id="@+id/found_image"
+                        android:src="@drawable/picture"
+                        android:layout_width="300dp"
+                        android:layout_height="150dp"
+                        android:maxWidth="300dp"
+                        android:maxHeight="180dp" />
+
+                    <Button
+                        android:id="@+id/get_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:padding="0dp"
+                        android:text="사진 첨부"
+                        android:textSize="17dp"/>
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/found_contentET"
+                    android:layout_width="300dp"
+                    android:layout_height="100dp"
+                    android:maxWidth="300dp"
+                    android:maxHeight="100dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="7dp"
+                    android:background="@drawable/border"
+                    android:hint="내용을 입력하세요"
+                    android:textSize="17dp"
+                    android:inputType="textMultiLine"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <Spinner
+                        android:id="@+id/location"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:background="@drawable/border"
+                        android:entries="@array/location"
+                        android:textAlignment="center">
+
+                    </Spinner>
+
+                    <Spinner
+                        android:id="@+id/keyword"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:padding="5dp"
+                        android:background="@drawable/border"
+                        android:entries="@array/keyword"
+                        android:textAlignment="center">
+
+                    </Spinner>
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/store_ET"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="7dp"
+                    android:background="@drawable/border"
+                    android:hint="보관 장소를 입력하세요."
+                    android:textSize="17dp"
+                    android:inputType="text"/>
+
+                <Button
+                    android:id="@+id/get_date"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:padding="0dp"
+                    android:text="날짜 선택"
+                    android:textSize="17dp"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+        <Button
+            android:id="@+id/found_enter"
+            android:layout_width="150dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="25dp"
+            android:background="#FDEEC7"
+            android:text="신고하기"
+            android:textSize="19dp"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

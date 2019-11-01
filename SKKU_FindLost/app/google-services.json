@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "530809073327",
+    "firebase_url": "https://skkufindlost.firebaseio.com",
+    "project_id": "skkufindlost",
+    "storage_bucket": "skkufindlost.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530809073327:android:e1666438a4fceb12",
+        "android_client_info": {
+          "package_name": "edu.skku.map.skku_findlost"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "530809073327-539opgmfkmu28n8bha538rgg0eq72ibe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.skku.map.skku_findlost",
+            "certificate_hash": "b4f9843d1369884d2e1b817974e2dcc475f8ab3c"
+          }
+        },
+        {
+          "client_id": "530809073327-shhgtmkkddm5d93ako5r81mv59d390qj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi8CoHhjrBYFtV1h8xG6zbEny-0Q5rgH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "530809073327-shhgtmkkddm5d93ako5r81mv59d390qj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

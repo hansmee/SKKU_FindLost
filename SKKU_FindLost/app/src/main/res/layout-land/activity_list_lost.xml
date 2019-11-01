@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".ListLostActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/lostlist_title"
+            android:src="@drawable/lostlist_title"
+            android:layout_width="190dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:id="@+id/lostlist_linear"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="center"
+            android:padding="3dp"
+            android:background="#FDEEC7">
+
+            <ListView
+                android:id="@+id/lost_listview"
+                android:layout_width="340dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:layout_marginTop="10dp">
+
+                <Spinner
+                    android:id="@+id/location"
+                    android:layout_width="115dp"
+                    android:layout_height="30dp"
+                    android:padding="5dp"
+                    android:background="@android:color/white"
+                    android:entries="@array/location"
+                    android:textAlignment="center"/>
+
+                <Spinner
+                    android:id="@+id/keyword"
+                    android:layout_width="115dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="5dp"
+                    android:background="@android:color/white"
+                    android:entries="@array/keyword"
+                    android:textAlignment="center"/>
+
+                <Button
+                    android:id="@+id/get_startdate"
+                    android:layout_width="115dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/white"
+                    android:text="시작 날짜"
+                    android:textSize="16dp"/>
+
+                <Button
+                    android:id="@+id/get_enddate"
+                    android:layout_width="115dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/white"
+                    android:text="끝 날짜"
+                    android:textSize="16dp"/>
+
+                <ImageButton
+                    android:id="@+id/sort"
+                    android:src="@drawable/sort"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:padding="0dp"
+                    android:background="@drawable/selector"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

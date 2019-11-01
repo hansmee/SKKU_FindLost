@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="keyword">
+        <item >종류 선택</item>
+        <item >기숙사 키</item>
+        <item >지갑</item>
+        <item >신분증</item>
+        <item >카드</item>
+        <item >학생증</item>
+        <item >가방</item>
+        <item >기타</item>
+    </string-array>
+</resources>
