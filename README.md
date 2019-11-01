@@ -8,8 +8,9 @@
 ![skku_findlost](./image/SKKU_findlost.gif)
 
 - Firebase
-
-![firebase1](./image/firebase_realtime_db.png) ![firebase2](./image/firebase_cloud_messaging.png) ![firebase3](./image/cloud_storage.png)
+  - Firebase Realtime Database
+  - Firebase Cloud Messaging
+  - Firebase Cloud Storage
 
 - glide
 
